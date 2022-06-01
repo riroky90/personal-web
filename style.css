@@ -2,10 +2,14 @@ body{
     margin: 0%;
     font-family: 'Poppins', sans-serif;
 }
-h1{
+.name-highlite{
     font-size: 44px;
     color: rgb(255, 34, 108);
     
+}
+h1{
+    font-size: 40px;
+    text-align: center;
 }
 h3{
     font-size: 28px;
@@ -14,10 +18,7 @@ h3{
 p{
     color: gray;
 }
-.head{
-    color: black;
-    font-size: 40px;
-}
+
 section{
     height: 1000px;
 }
@@ -33,6 +34,9 @@ section{
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
 }   
+.work-photo{
+    background-image: url(images/latest-work-bg.png);
+}
 .peter-section{
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
@@ -50,4 +54,37 @@ section{
     border-radius: 5px;
     font-weight: 500px;
     padding-top: 1%;
+}
+.work-photo1{
+    width: 30%;
+    float: left;
+    padding-left: 7%;
+    padding-top: 5%; 
+}
+.work-photo1 img{
+    width: 80%;
+    
+}
+.work-photo2{
+    width: 30%;
+    float: left;
+    padding-top: 5%;
+   
+}
+.work-photo2 img{
+    width: 80%;
+    
+}
+.work-photo3{
+    width: 30%;
+    float: left;
+    padding-top: 5%;
+    
+}
+.work-photo3 img{
+    width: 80%;
+    
+}
+.work-text{
+    padding-top: 3%;
 }
